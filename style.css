@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+ #bg_color{
+     background-color: #1A187A !important;
+ }
+
+ #text_color{
+    color: white;
+    font-size: 16px;
+ }
+
+ #text_color i{
+    font-size: 25px;
+ }
+
+ #caro_text{
+    color: black;
+ }
+
+ .btn-dangers{
+   background-color: #1A187A !important;
+   color: white !important;
+ }
+ .bg_img{
+   background-image: url('./images/v904-nunny-012\ 1.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+ }
+
+ 
+
+.pd_bg{
+   background-image: url('./images/ipad.png');
+   background-position:center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.pd_bg2{
+   background: url('./images/Iphone\ 14\ pro\ 1.png');
+   background-position:center center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.pd_bg3{
+   background: url('./images/Group\ 6.png');
+   background-position:left center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+@media only screen and (max-width: 425px){
+	 
+   .mt_carousal{
+      margin-top: 30px !important;
+   }
+  
+   .pd_bg3{
+     background: url('./images/Group\ 6.png');
+     background-position:center center;
+     background-repeat: no-repeat;
+     background-size:contain;
+     padding: 137px 0px;
+  }
+
+  .cate_margin{
+     margin: 0 30px;
+  } 
+
+  .cate_card{
+    margin-bottom: 10px;
+  }
+
+  .card_title h5{
+   padding: 10px 10px;
+   font-size: 14px;
+}
+
+  .ft_content{
+   text-align: center;
+  }
+  .ft_ord{
+    order: 4;
+  }
+}
+
+.cate_margin{
+   padding: 40px 0px;
+} 
+
+.cate_title{
+   font-weight: 500;
+}
+
+.cate_card{
+   text-align: center;
+    padding: 24px 0px; 
+   border-radius: 15px;
+   background: #EDEDED;
+}
+
+.cate_card h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card_section{
+   margin: 56px 0px 56px;
+}
+
+.card_title h5{
+    padding: 10px 15px 10px 0px;
+}
+
+.cd_des button{
+    background-color: black;
+    border: none;
+    padding: 12px 44px;
+    color: white;
+    border-radius: 5px;
+}
+
+.sale_title{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.ft_ic h3 i{
+   color: white;
+}
+
+.ft_content p{
+   color: #fff;
+}
